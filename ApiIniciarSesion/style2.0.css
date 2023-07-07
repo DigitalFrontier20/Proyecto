@@ -1,0 +1,194 @@
+body {
+    background-image: url(Imagenes/wave.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc03d;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #ffffff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #EC5B04;
+    --second-blue: #2a7f95;
+    --second-yellow: #be9c54;
+    --second-gray: #d7dddb;
+}
+
+.formulario {
+    display: flex;
+    backdrop-filter: blur(1.5rem);
+    margin: auto;
+    width: 50%;
+    height: 37vh;
+    padding: 5%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+
+
+
+
+}
+
+
+
+
+.formulario #codigocam,
+#codigofun,
+#password,
+#email {
+    width: 40vh;
+    padding: 2%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+}
+
+#btn {
+    border-radius: 5px;
+    height: 40px;
+    width: 15vh;
+    border: none;
+    background-color: #2a7f95;
+    cursor: pointer;
+    color: #ffffff;
+    margin: 10px;
+
+}
+
+
+#btn:hover {
+    border: 2px solid #fd7e14;
+    background-color: transparent;
+    color: #343a40;
+
+}
+
+#img-user {
+
+
+    width: 20%;
+    height: 40%;
+    padding: 10%;
+
+}
+
+.title-from {
+    margin: 1%;
+    font-size: 2.5em;
+    font-family: monospace;
+    color: #343a40;
+
+}
+
+
+
+
+
+
+
+
+
+.msjActualizacion {
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(1.5rem);
+    margin: auto;
+    width: 40%;
+    height: 37vh;
+    padding: 5%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+
+.iconoMsj {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+}
+
+
+.volver {
+    border-radius: 30px;
+    height: 40px;
+    width: 40vh;
+    border: none;
+    background-color: #2a7f95;
+    cursor: pointer;
+    color: #ffffff;
+    margin: auto;
+}
+
+
+
+.text-footer {
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    padding: 10% 40%;
+}
+
+
+
+.register-li {
+    display: inline-block;
+    color: #343a40;
+    width: 90%;
+}
+
+
+.sub-title {
+    font-size: 1.5em;
+    font-family: monospace;
+}
+
+
+
+
+
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+a,
+ul {
+    list-style: none;
+    border-bottom: none;
+}
+
+
+
+.text-error {
+    margin: 1%;
+    font-size: 1.5em;
+    font-family: monospace;
+    color: #343a40;
+    padding-left: 38%;
+    padding-top: 80%;
+
+}

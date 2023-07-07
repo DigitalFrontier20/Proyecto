@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yorugua Express</title>
+    <link rel="shortcut icon" href="Imagenes/ico.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <img  src="Imagenes/logo.png" height="100px">
+        <nav class="nav-class">
+            <ul class="firts">
+                <li class="li-class">
+                    <a class="a-class" href="#Inicio">Inicio</a>
+                </li>
+                <li class="li-class">
+                    <a class="a-class" href="ApiIniciarSesion/sesion.php">Iniciar Sesion</a>
+                </li>
+
+            </li>
+            <li class="li-class">
+                <a class="a-class" href="#Nosotros">Nosotros</a>
+            </li>
+            <li class="li-class">
+                <a class="a-class" href="#Contacto">Contacto</a>
+            </li>
+                
+
+                
+            </ul>
+
+        </nav>
+
+        <div class="icono-menu">
+            <img src="Imagenes/menu.png" id="imgmenu" width="10%">
+        </div>
+        <div class="cont-menu active" id="menu">
+            <nav>
+                <ul>
+                    
+                    <li id="chau">
+                        <a  href="ApiABMPaquete/rastrear.php"> Rastrear Paquete</a>
+                    </li>
+                    <li id="chau">
+                        <a  href="ApiIniciarSesion/sesion.php"> Iniciar Sesion</a>
+                    </li>
+                    <li id="chau">
+                        <a  href="#Nosotros">Nosotros</a>
+                        
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="primeraseccion" id="Inicio">
+        <section class="text">
+            <h2>Yorugua Express</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>
+                Yorugua Express se encarga de ser la mejor empresa de logistica del Uruguay, haciendo que no importe
+                desde donde estes Yorugua Express se encargara de llevar todos los paquetes a todos lo rincones del
+                Uruguay.
+            </p>
+            <br>
+            <br>
+            <br>
+            <a href="ApiIniciarSesion/sesion.php">
+                <button type="button" class="btn-one">Iniciar Sesion</button>
+            </a>
+        </section>
+
+
+        <section>
+            <img src="Imagenes/sodapdf-converted (1).png" id="img">
+        </section>
+
+    </div>
+
+
+    <div class="code" id="Rastrear">
+        <img src="Imagenes/entrega.png" id="img-package" width="10%">
+        <h3>Rastrear paquete</h3>
+        <span class="code-text">Ingrese codigo del paquete</span>
+
+        <form action="ApiABMPaquete/rastrear.php" method="post">
+            <div class="inputbox">
+                <input type="text" id="username">
+            </div>
+            <br>
+            <input type="submit" value="Submit" id="submit">
+
+
+        </form>
+
+    </div>
+
+
+    <div class="seccion-tres">
+        <a name="Nosotros"></a>
+        <section class="div.text">
+            <span id="text-title">Nosotros
+                <br>
+                Nuestro objetivo es que los paquetes de todos los Urugayos lleguen en forma correcta a sus casas, no
+                importa el destino ni los kilometros.
+                Nuestra planta operativa se ubica en un lugar estratégico de la ciudad, facilitando el acceso a las
+                zonas de mayor densidad de Montevideo.
+                A su vez, contamos con puntos de entrega (pickup centers) ubicados estratégicamente tanto en Montevideo
+                como el interior del país.
+            </span>
+
+            <img src="Imagenes/4980942_50925.jpg" id="img-track-two">
+
+
+        </section>
+        <section>
+            <img src="Imagenes/25273815_na_feb_08.jpg" id="img-track">
+            <span id="text-title-two">Objetivo
+                <br>
+                El objetivo de Yorugua Express es poder hacer que todos los paquetes lleguen a sus casas, ademas poder
+                obtener un buen desarrollo en el ambito texnologico y de software.
+            </span>
+        </section>
+
+
+
+
+
+    </div>
+
+    <footer>
+        <div class="div-footer" id="Contacto">
+            <h4>Yorugua Express</h4>
+            <div class="sub-div-footer">
+                <span class="contactos"> <br>
+                    <p style="color:#fd7e14">Telefono</p> 091857129
+
+                    <br>
+                    <p style="color:#fd7e14">Gmail</p> digitalfrontier@gmail.com
+                </span>
+                <div class="redes">
+
+                    <p style="color:#fd7e14">Seguinos en:</p>
+                    <br>
+                    <img src="Imagenes/instagram.png" id="img-footer">
+                    <img src="Imagenes/twitter-black-shape.png" id="img-footer">
+                    <img src="Imagenes/facebook-circular-logo.png" id="img-footer">
+                    <img src="">
+                    <img src="">
+
+
+                </div>
+
+                <br>
+                <small>Todos los derechos reservados 2023 © Digital Frontier</small>
+
+    </footer>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
